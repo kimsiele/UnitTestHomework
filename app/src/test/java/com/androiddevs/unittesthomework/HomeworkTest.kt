@@ -6,8 +6,8 @@ import junit.framework.TestCase
 class HomeworkTest : TestCase() {
 
     fun testFib() {
-        val number = Homework.fib(0)
-        assertThat(number).isEqualTo(0)
+        val number = Homework.fib(3)
+        assertThat(number).isEqualTo(2)
     }
 
 
